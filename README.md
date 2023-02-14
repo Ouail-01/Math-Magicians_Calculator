@@ -58,7 +58,7 @@ Read a random math-related quote.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Comming soon !!]()
+> Coming soon!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
