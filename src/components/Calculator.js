@@ -1,38 +1,59 @@
 /* eslint-disable */
-import React from 'react';
+import React, {Component} from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator() {
-  return (
-    <div className="calculator-container">
-      <div className="calc-display">
-        0
-      </div>
-      <div className="calc-keys">
-        <button type="button">AC</button>
-        <button type="button">+/-</button>
-        <button type="button">%</button>
-        <button type="button" className="or-color">+</button>
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
-        <button type="button" className="or-color">x</button>
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button type="button" className="or-color">-</button>
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
-        <button type="button" className="or-color">+</button>
-        <button type="button" className="l-key">0</button>
-        <button type="button">.</button>
-        <button type="button" className="or-color">=</button>
+class Calculator extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            total: null,
+            next: null,
+            operation: null,
+        }
+    }
+    onChangeHandler = (e) => {
+        const result = calculate(this.state, e.target.innerText);
+        this.setState(result);
+    }
 
-      </div>
+    displayResult = (e) => {
+        this.setState({
+            total: e.target.innerText,
+        });
+    }
 
-    </div>
-  );
+
+    render() {
+        const {total, next, operation } = this.state;
+        return (
+            <div className="calculator-container">
+                <div className="calc-display" onClick={this.displayResult}>{total || next || operation || 0}</div>
+                <div className="calc-keys">
+                    <button type="button" onClick={this.onChangeHandler}>AC</button>
+                    <button type="button" onClick={this.onChangeHandler}>+/-</button>
+                    <button type="button" onClick={this.onChangeHandler}>%</button>
+                    <button type="button" className="or-color" onClick={this.onChangeHandler}>÷</button>
+                    <button type="button" onClick={this.onChangeHandler}>7</button>
+                    <button type="button" onClick={this.onChangeHandler}>8</button>
+                    <button type="button" onClick={this.onChangeHandler}>9</button>
+                    <button type="button" className="or-color" onClick={this.onChangeHandler}>x</button>
+                    <button type="button" onClick={this.onChangeHandler}>4</button>
+                    <button type="button" onClick={this.onChangeHandler}>5</button>
+                    <button type="button" onClick={this.onChangeHandler}>6</button>
+                    <button type="button" className="or-color" onClick={this.onChangeHandler}>-</button>
+                    <button type="button" onClick={this.onChangeHandler}>1</button>
+                    <button type="button" onClick={this.onChangeHandler}>2</button>
+                    <button type="button" onClick={this.onChangeHandler}>3</button>
+                    <button type="button" className="or-color" onClick={this.onChangeHandler}>+</button>
+                    <button type="button" className="l-key" onClick={this.onChangeHandler}>0</button>
+                    <button type="button" onClick={this.onChangeHandler}>.</button>
+                    <button type="button" className="or-color" onClick={this.onChangeHandler}>=</button>
+
+                </div>
+
+            </div>
+        )
+    }
 }
 
 export default Calculator;
