@@ -32,8 +32,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 40%;
   height: 50%;
-  
 }
+
 .calc-keys button {
   border-color: rgb(211, 211, 211);
 }
