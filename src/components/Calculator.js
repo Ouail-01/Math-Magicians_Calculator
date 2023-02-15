@@ -1,4 +1,6 @@
+/* eslint-disable */
 import React from 'react';
+import calculate from '../logic/calculate';
 
 function Calculator() {
   return (
