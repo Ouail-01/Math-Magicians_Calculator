@@ -1,4 +1,4 @@
-# Javascript-capstone
+# Math-Magicians_Calculator
 
 <a name="readme-top"></a>
 
@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Javascript-capstone] <a name="about-project"></a>
+# 📖 [Math-Magicians_Calculator] <a name="about-project"></a>
 
-**[Javascript-capstone]**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**[Math-Magicians_Calculator]**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.
