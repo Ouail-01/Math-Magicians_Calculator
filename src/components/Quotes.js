@@ -1,6 +1,5 @@
-/* eslint-disable */
 import React from 'react';
-import "../styles/Quotes.modules.css";
+import '../styles/Quotes.modules.css';
 
 const Quote = () => (
   <>

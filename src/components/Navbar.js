@@ -1,10 +1,8 @@
-/* eslint-disable */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import "../styles/Navbar.modules.css";
+import '../styles/Navbar.modules.css';
 
 const Navbar = () => {
-
   const navLinks = [
     {
       id: 1,
@@ -29,7 +27,7 @@ const Navbar = () => {
     <div className="navbar">
       <nav>
 
-      <h1>Math Magicians</h1>
+        <h1>Math Magicians</h1>
         <ul>
           {navLinks.map((nav) => (
             <li key={nav.id}>
