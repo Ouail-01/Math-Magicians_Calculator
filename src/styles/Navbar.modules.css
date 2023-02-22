@@ -1,7 +1,3 @@
-.navbar {
-    background: gainsboro;
-}
-
 .navbar h1 {
     font-size: 45px;
     margin-left: 20px;
@@ -22,4 +18,21 @@
 
 .navbar li {
     margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    
+    .navbar nav {
+        display: flex;
+        background: rgb(157, 155, 155);
+        justify-content: space-between;
+    }
+    
+    .navbar li {
+        margin-right: 7px;
+    }
 }

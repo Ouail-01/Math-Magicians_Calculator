@@ -63,6 +63,24 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .calc-container {
+    display: contents;
+  }
+  .calc-container h1 {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .calculator-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -100px 47px;
+
+  }
+
   .calc-display {
     width: 90%;
   }
