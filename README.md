@@ -123,3 +123,7 @@ Feel free to check the [issues page](https://github.com/Ouail-01/Math-Magicians_
 Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
