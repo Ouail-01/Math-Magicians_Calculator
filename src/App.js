@@ -1,4 +1,3 @@
-/* eslint-disable */
 import Calculator from './components/Calculator';
 import './App.css';
 
