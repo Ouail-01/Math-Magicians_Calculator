@@ -3,7 +3,7 @@ import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Quote from './components/Quotes';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
