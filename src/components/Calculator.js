@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useCallback } from 'react';
 import calculate from '../logic/calculate';
 
@@ -17,7 +18,10 @@ function Calculator() {
 
   const { total, next, operation } = state;
   return (
-    <div className="calculator-container">
+    <>
+    <div className="calc-container">
+      <h1>Let&apos;s do some Math!</h1>
+      <div className="calculator-container">
       <div className="calc-display">
         {total}
         {' '}
@@ -49,6 +53,8 @@ function Calculator() {
       </div>
 
     </div>
+    </div>
+    </>
   );
 }
 
