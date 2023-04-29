@@ -20,9 +20,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Javascript-capstone] <a name="about-project"></a>
+# 📖 [Math-Magicians_Calculator] <a name="about-project"></a>
 
-**[Javascript-capstone]**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**[Math-Magicians_Calculator]**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.
@@ -103,7 +103,7 @@ Open the html file in the dist folder.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/Ouail-01/Math-Magicians_Calculator/issues).
 
