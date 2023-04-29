@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import '../styles/Quotes.css';
 
 const Quotes = () => {
   const [quote, setQuote] = useState('');
@@ -33,15 +34,15 @@ const Quotes = () => {
   }, []);
 
   if (loading) {
-    return <p className="loading">Loading ...</p>;
+    return <h1 className="loading">Loading ...</h1>;
   }
 
   if (error) {
-    return <p className="error">There was an error fetching the quote. Please try again.</p>;
+    return <h1 className="error">There was an error fetching the quote. Please try again.</h1>;
   }
 
   return (
-    <p className="quotes">{quote}</p>
+    <h1 className="quotes">{quote}</h1>
   );
 };
 
