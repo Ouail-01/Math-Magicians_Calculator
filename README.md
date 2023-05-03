@@ -53,6 +53,15 @@ Read a random math-related quote.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> [Live Demo](https://ouail-01.github.io/Math-Magicians_Calculator)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
