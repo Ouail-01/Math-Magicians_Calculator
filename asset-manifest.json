@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Math-Magicians_Calculator/static/css/main.ff722c7d.css",
+    "main.js": "/Math-Magicians_Calculator/static/js/main.55b77d18.js",
+    "index.html": "/Math-Magicians_Calculator/index.html",
+    "main.ff722c7d.css.map": "/Math-Magicians_Calculator/static/css/main.ff722c7d.css.map",
+    "main.55b77d18.js.map": "/Math-Magicians_Calculator/static/js/main.55b77d18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff722c7d.css",
+    "static/js/main.55b77d18.js"
+  ]
+}
