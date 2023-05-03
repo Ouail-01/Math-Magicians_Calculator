@@ -1,0 +1,23 @@
+.home {
+    margin: 60px 35px;
+  }
+  
+  .home h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  
+  .home p {
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home {
+      margin: 60px 15px;
+    }
+  
+    .home h1 {
+      margin-bottom: 35px;
+    }
+  }
